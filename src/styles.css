@@ -223,7 +223,7 @@ span{
     margin-top: 10%;
     border-radius: 50%; 
     box-shadow: 0 -2px 20px rgb(41, 41, 41); 
-    animation: movedown 1.5s linear forwards;
+    animation: movesmall 6s linear infinite;
 }
 
 .home-img img{
@@ -251,7 +251,7 @@ span{
 }
 
 .social-icons{
-    animation: moveleft 5s ease-in-out infinite;
+    animation: moveleft 9s ease-in-out infinite;
 }
 
 .social-icons a{
@@ -346,7 +346,7 @@ span{
     font-size: 4rem;
     color: rgb(0, 47, 176);
     margin-bottom: 1rem;
-    animation: move 3.4s ease-in-out forwards;
+    animation: movesmall 4s ease-in-out infinite;
 }
 
 .skill-card h3 {
@@ -462,7 +462,7 @@ span{
 .education-box p {
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    animation: move 5s ease-in-out infinite;
+    animation: movesmall 7s ease-in-out infinite;
 }
 
 .education-box span {
@@ -502,6 +502,7 @@ span{
     margin-bottom: 5rem;
     font-weight: 800;
     text-align: center;
+    animation: movesmall 6s ease-in-out infinite;
 }
 
 .projects-container {
