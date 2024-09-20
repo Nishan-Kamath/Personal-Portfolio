@@ -187,6 +187,9 @@ nav a:hover, nav a.active{
     .home .home-img img {
         width: 50vw; 
     }
+    header{
+        height: 50px;
+    }
 }
 section{
     min-height: 100vh;
