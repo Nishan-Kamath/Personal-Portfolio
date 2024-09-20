@@ -24,7 +24,7 @@ const Portfolio = () => {
                 <div className="home-content-wrapper">
                     <div className="home-content">
                         <h1>Hi It's <span>Nishan H Kamath</span> </h1>
-                        <p>An innovative Information Science student focused on AI/ML and Android development.</p>
+                        <p>An innovative Information Science student focused on AI/ML and Fullstack development.</p>
                     </div>
                     <div className="social-icons">
                         <a href="https://www.linkedin.com/in/nishan-kamath-b2891b26b/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
