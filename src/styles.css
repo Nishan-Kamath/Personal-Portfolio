@@ -115,6 +115,38 @@ nav a:hover, nav a.active{
         transform: translateX(0); 
     }
 }
+@keyframes moveimg {
+    0% {
+        transform: translateX(0); 
+    }
+    33% {
+        transform: translateX(-50px) ;
+    }
+    66% {
+        transform: translateX(50px) translateY(-50px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+@keyframes moveskill {
+    0% {
+        transform: translateX(0); 
+        rotate: 0deg;
+    }
+    33% {
+        transform: translateX(20px);
+        rotate: 90deg;
+    }
+    66% {
+        transform: translateX(-20px);
+        rotate: 180deg; 
+    }
+    100% {
+        transform: translateX(0);
+        rotate: 360deg; 
+    }
+}
 @keyframes movesmall {
     0% {
         transform: translateX(0); 
@@ -271,6 +303,7 @@ span{
     transition: 0.3s ease;
     color: rgb(0, 0, 0);
     box-shadow: 0 0 15px rgba(0, 0, 0);
+    animation: moveskill 6s ease-in-out infinite;
 }
 
 .social-icons a:hover{
@@ -349,7 +382,7 @@ span{
     font-size: 4rem;
     color: rgb(0, 47, 176);
     margin-bottom: 1rem;
-    animation: movesmall 4s ease-in-out infinite;
+    animation: movesmall 6s ease-in-out infinite;
 }
 
 .skill-card h3 {
