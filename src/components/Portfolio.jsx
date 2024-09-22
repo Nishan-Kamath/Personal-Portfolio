@@ -134,7 +134,7 @@ const Portfolio = () => {
                         <p>Phone: <a href="tel:+919380719446">+91 9380719446</a></p>
                     </div>
                     <div className="contact-download">
-                        <a href="nishan_resume.pdf" download="Nishan_H_Kamath_Resume.pdf" className="btn">Download Resume</a>
+                        <a href="/resume.pdf" download="Nishan_H_Kamath_Resume.pdf" className="btn">Download Resume</a>
                     </div>
                 </div>
             </section>

@@ -286,7 +286,7 @@ span{
 }
 
 .social-icons{
-    animation: moveleft 9s ease-in-out infinite;
+    animation: moveleft 10s ease-in-out infinite;
 }
 
 .social-icons a{
@@ -303,7 +303,7 @@ span{
     transition: 0.3s ease;
     color: rgb(0, 0, 0);
     box-shadow: 0 0 15px rgba(0, 0, 0);
-    animation: moveskill 6s ease-in-out infinite;
+    animation: moveskill 8s ease-in-out infinite;
 }
 
 .social-icons a:hover{
@@ -325,6 +325,7 @@ span{
     transition: 0.3s ease;
     cursor:pointer;
     animation: movedown 3s ease-in-out forwards;
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -332,6 +333,7 @@ span{
     background-color: rgb(0, 247, 8);
     color:rgb(26, 0, 0);
     box-shadow: 0 0 20px rgb(0, 54, 163);
+    border: 1px solid blue;
 }
 
 .skills {
@@ -341,7 +343,7 @@ span{
 
 .section-title {
     font-size: 3rem;
-    color: rgb(13, 0, 255); /* Updated color */
+    color: rgb(13, 0, 255); 
     margin-bottom: 4rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -382,7 +384,7 @@ span{
     font-size: 4rem;
     color: rgb(0, 47, 176);
     margin-bottom: 1rem;
-    animation: movesmall 6s ease-in-out infinite;
+    animation: movesmall 8s ease-in-out infinite;
 }
 
 .skill-card h3 {
@@ -458,6 +460,7 @@ span{
     background-color: rgb(255, 255, 255);
     color: rgb(43, 0, 0);
     animation: movedown 4s linear forwards;
+    opacity: 0;
 }
 
 .section-title {
@@ -543,7 +546,7 @@ span{
     margin-bottom: 5rem;
     font-weight: 800;
     text-align: center;
-    animation: movesmall 6s ease-in-out infinite;
+    animation: movesmall 5s ease-in-out infinite;
 }
 
 .projects-container {
@@ -568,6 +571,7 @@ span{
     align-items: center;
     min-height: 200px;
     animation: movedown 4s linear forwards;
+    opacity: 0;
 }
 
 .project-card h3 {
@@ -581,7 +585,7 @@ span{
 .project-card p {
     font-size: 1.8rem;
     color: rgb(45, 0, 0);
-    animation: movesmall 4s linear infinite;
+    animation: movesmall 6s linear infinite;
 }
 
 .project-card:hover {
